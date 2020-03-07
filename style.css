@@ -8,3 +8,22 @@ body{
     box-shadow: 5px 5px 10px grey;
     padding: 40px;
 }
+#transjectionArea {
+    display:none;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange
+}
+.sameclass{
+    color: white;
+    margin: 0px 20px;
+    border-radius: 10px ;
+    padding: 20px ;
+
+}

@@ -23,11 +23,56 @@
 
         </div>
     </div>
-        <script>
+
+    <!-------------this is my transection area........-->
+    <div id="transjectionArea">
+
+       <div class="row">
+           <div class="col-md-4  ">
+              <div class="deposit sameclass">
+                <h5>Deposit</h5>
+                <h2>$00</h2>
+              </div>
+           </div>
+           <div class="col-md-4 ">
+             <div class="withdraw sameclass">
+                <h5>Withdraw</h5>
+                <h2>$00</h2>
+             </div>
+           </div>
+           <div class="col-md-4 ">
+              <div class="balance sameclass">
+                <h5>Balance</h5>
+                <h2>$00</h2>
+              </div>
+           </div>
+       </div>
+    </div> </br>
+    <!-------------------------------------------------this is point counting by masatar----------------->
+       <div class="row ">
+           <div class="col-md-6">
+              <div class="submitArea">
+                <h4>Deposit</h4>
+                <input type="text" class="form-control"></br>
+                <button class="btn btn-success">Deposit</button>
+              </div>
+           </div>
+           <div class="col-md-6">
+              <div class="submitArea">
+                <h4>Withdraw</h4>
+                <input type="text" class="form-control"></br>
+                <button class="btn btn-success">Withdraw</button>
+              </div>
+           </div>
+       </div>
+       
+       <script>
             const loginBtn = document.getElementById ("login")
             loginBtn.addEventListener("click", function() {
                const loginArea = document.getElementById("loginArea");
                loginArea.style.display="none"
+               const transjectionArea= document.getElementById("transjectionArea");
+                transjectionArea.style.display="block";
             })
         </script>
 
